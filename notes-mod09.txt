@@ -1,0 +1,13 @@
+#################### Navegação
+// dependencia
+yarn add react-router-dom
+// duas pastas em src: pages e routes
+// arquivo index.js em routes
+// dependencia
+yarn add history
+// configuração do arquivo history
+// nova pasta em src: services com arquivo history.js
+// criação das pastas de cada tela na pasta pages
+
+// Criação do arquivo de rotas
+// importação das rotas no App.js
