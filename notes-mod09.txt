@@ -40,3 +40,32 @@ yarn add styled-components
 // criar a pasta styles em src
 // criar o arquivo global.js dentro da pasta styles e definir os estilos Globais
 // importar os estilos globais e aplicar em App.js
+
+############ Root Import (FACULTATIVO)
+// dependencias necessárias para alterar configurações padrão do BABEL e WEBPACK
+yarn add customize-cra react-app-rewired -D
+// criar o arquivo config-overrides.js na raiz
+// dependencia - plugin do BABEL
+yarn add babel-plugin-root-import -D
+
+//agora os caminhos de importação podem utilizar o til (~) para simbolizar a raiz
+//no arquivo package.json os scripts de start, build e test devem ser alterados
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+
+// nova dependencia para o eslint entender o novo mecanismo de importação
+yarn add eslint-import-resolver-babel-plugin-root-import -D
+// adicionar em settings do .eslintrc
+    settings: {
+        "import/resolver": {
+          "babel-plugin-root-import": {
+            rootPathSuffix: "src"
+          },
+        },
+      },
+
+// configurar para que seja possivel acessar arquivos de caminho segurando o ctrl
+// novo arquivo chamado jsconfig.json em raiz
+
+
