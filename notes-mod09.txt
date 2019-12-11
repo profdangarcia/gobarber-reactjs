@@ -26,3 +26,12 @@ yarn add reactotron-react-js
 // configurar a validação de prop-types
 yarn add prop-types
 // alterar importação do Routes para nosso arquivo ao invés do react-router-dom
+
+############# Layouts Padrão
+// criar nova pasta chamada _layouts dentro de pages (_ serve para ficar no inicio)
+// criar duas novas pastas em _layouts uma para auth e outra default com um index.js dentro
+// instalar o syled components
+yarn add styled-components
+
+// Importar os dois arquivos de Layout no arquivo Route.js
+// Alterar o return do arquivo
