@@ -35,3 +35,8 @@ yarn add styled-components
 
 // Importar os dois arquivos de Layout no arquivo Route.js
 // Alterar o return do arquivo
+
+############ Estilos Globais
+// criar a pasta styles em src
+// criar o arquivo global.js dentro da pasta styles e definir os estilos Globais
+// importar os estilos globais e aplicar em App.js
