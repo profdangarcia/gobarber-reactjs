@@ -11,3 +11,10 @@ yarn add history
 
 // Criação do arquivo de rotas
 // importação das rotas no App.js
+
+
+############### Configuração do Reactotron
+// dependencia
+yarn add reactotron-react-js
+// configurar arquivo do reactotron na pasta config (criar o arquivo)
+// importar o arquivo em App.js
