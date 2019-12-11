@@ -18,3 +18,11 @@ yarn add history
 yarn add reactotron-react-js
 // configurar arquivo do reactotron na pasta config (criar o arquivo)
 // importar o arquivo em App.js
+
+
+############## Rotas Privadas
+// novo arquivo chamado Route.js na pasta routes
+// adicionar a propriedade isPrivate nas rotas que forem privadas
+// configurar a validação de prop-types
+yarn add prop-types
+// alterar importação do Routes para nosso arquivo ao invés do react-router-dom
