@@ -21,7 +21,7 @@ export const Content = styled.div`
     margin-top: 30px;
 
     input {
-      background: rgba(0,0,0,0.1);
+      background: rgba(0, 0, 0, 0.1);
       border: 0;
       border-radius: 4px;
       height: 44px;
@@ -30,7 +30,7 @@ export const Content = styled.div`
       margin: 0 0 10px;
 
       &::placeholder {
-        color: rgba(255,255,255,0.7);
+        color: rgba(255, 255, 255, 0.7);
       }
     }
 
@@ -45,7 +45,7 @@ export const Content = styled.div`
       font-size: 16px;
       transition: background 0.2s;
 
-      &:hover{
+      &:hover {
         background: ${darken(0.03, '#3b9eff')};
       }
     }
