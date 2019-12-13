@@ -69,3 +69,7 @@ yarn add eslint-import-resolver-babel-plugin-root-import -D
 // novo arquivo chamado jsconfig.json em raiz
 
 
+############### Estilização Telas de Autenticação
+// nova pasta chamada assets em src
+// utilização do polished
+yarn add polished
