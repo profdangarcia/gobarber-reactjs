@@ -80,3 +80,9 @@ yarn add @rocketseat/unform
 // substituir os Form e Input
 // criar função handleSubmit que recebe 'data'
 // colocar no form o onSubmit = {handleSubmit}
+
+############## Validação dados do form
+// utilização do Yup
+yarn add yup
+// utilizar o yup nas páginas com formulários
+// criar o schema e adicionar o schema ao Form
