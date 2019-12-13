@@ -86,3 +86,29 @@ yarn add @rocketseat/unform
 yarn add yup
 // utilizar o yup nas páginas com formulários
 // criar o schema e adicionar o schema ao Form
+
+############## Configurações do Store (Redux)
+// nova pasta em src chamada store
+// novo arquivo chamado index.js na pasta store
+// nova pasta em store chamada modules
+// dependencias
+yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
+
+// a pasta modules irá possuir uma pasta para cada tipo de redux
+// nova pasta chamada auth em modules
+// novos arquivos em auth chamados: actions.js, reducer.js, sagas.js
+
+//novo arquivo em modules chamado rootReducer.js para agrupar todos reducers
+//novo arquivo em modules chamado rootSaga.js para unir todos os sagas
+
+// configurar
+1- reducer.js
+2- sagas.js
+3- rootReducer
+4- rootSaga
+e o arquivo index.js dentro de store
+
+//novo arquivo na pasta store chamado createStore.js
+//configurar arquivo index.js
+
+//alterações no arquivo de configuração do reactotron
