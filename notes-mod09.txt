@@ -112,3 +112,14 @@ e o arquivo index.js dentro de store
 //configurar arquivo index.js
 
 //alterações no arquivo de configuração do reactotron
+
+############## Configurações de Login
+// novas actions para o module de auth
+// nova regra e função no arquivos sagas de auth
+// dependencia para chamadas à API (axios)
+yarn add axios
+
+// arquivo de configuração na pasta services chamado api.js
+//alterações no index.js do signIn
+//configurações do reducer
+//configurações no arquivo Routes.js para utilizar a Store do redux
