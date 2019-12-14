@@ -122,10 +122,20 @@ yarn add axios
 // arquivo de configuração na pasta services chamado api.js
 //alterações no index.js do signIn
 //configurações do reducer
-//configurações no arquivo Routes.js para utilizar a Store do redux
+//configurações no arquivo Route.js para utilizar a Store do redux
 
 
 ############## Armazenando o Perfil do Usuário
 // novo model na store chamado user
 // configurações do reducer e do sagas
 // importação do reducer de user no rootReducer e no rootSaga
+
+############## Persistencia dos Dados no Storage
+//dependencia Redux-persist
+yarn add redux-persist
+//novo arquivo na pasta store chamado persistReducers.js
+//configurações do arquivo persistReducers.js
+//alterações do index.js de dentro da pasta store
+
+//alterações de importação no arquivo App.js e no Route.js
+//nova importação em App.js
