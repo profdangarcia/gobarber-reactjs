@@ -123,3 +123,9 @@ yarn add axios
 //alterações no index.js do signIn
 //configurações do reducer
 //configurações no arquivo Routes.js para utilizar a Store do redux
+
+
+############## Armazenando o Perfil do Usuário
+// novo model na store chamado user
+// configurações do reducer e do sagas
+// importação do reducer de user no rootReducer e no rootSaga
