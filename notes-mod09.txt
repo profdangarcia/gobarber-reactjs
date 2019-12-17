@@ -147,3 +147,9 @@ yarn add redux-persist
 //alteração no texto do botão de Loading
 
 // alteração no saga de auth para utilizar o try catch caso haja erros
+
+############## Utilização do React-Toastify
+yarn add react-toastify
+// importação do ToastContainer em App.js
+// importação dos estilos do toastify dentro dos estilos globais
+// importação do toast no arquivo de sagas.js para ser utilizado
