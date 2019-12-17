@@ -139,3 +139,11 @@ yarn add redux-persist
 
 //alterações de importação no arquivo App.js e no Route.js
 //nova importação em App.js
+
+############## Tela de Loading para Login
+//ouvir dois novas actions no Reducer REQUEST e FAILURE de login
+//refatoração no reducer para utilizar um unico return producer
+//no index.js de login utilização do useSelector para utilizar o valor do Loading
+//alteração no texto do botão de Loading
+
+// alteração no saga de auth para utilizar o try catch caso haja erros
