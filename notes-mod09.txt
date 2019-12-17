@@ -159,3 +159,7 @@ yarn add react-toastify
 // utilização da action no index.js do signup
 // utilização do useDispatch e alteração no handleSubmit
 // alteração no saga.js de auth para ouvir a action de signUpRequest
+
+############ Requisições Autenticadas
+//alteração no sagas de autenticação para utilizar o api.default
+// escutar nova action no sagas.js para manter o token nos headers
