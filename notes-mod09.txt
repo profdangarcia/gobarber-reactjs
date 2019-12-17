@@ -153,3 +153,9 @@ yarn add react-toastify
 // importação do ToastContainer em App.js
 // importação dos estilos do toastify dentro dos estilos globais
 // importação do toast no arquivo de sagas.js para ser utilizado
+
+############# Cadastro na Aplicação
+// nova action signUpRequest
+// utilização da action no index.js do signup
+// utilização do useDispatch e alteração no handleSubmit
+// alteração no saga.js de auth para ouvir a action de signUpRequest
