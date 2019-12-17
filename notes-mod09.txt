@@ -163,3 +163,9 @@ yarn add react-toastify
 ############ Requisições Autenticadas
 //alteração no sagas de autenticação para utilizar o api.default
 // escutar nova action no sagas.js para manter o token nos headers
+
+############ Configurando Header
+// nova pasta chamada components em src
+// nova pasta chamada Header com index.js dentro (na pasta components)
+// site para fotos de perfil para testes
+api.adorable.io
