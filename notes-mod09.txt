@@ -169,3 +169,13 @@ yarn add react-toastify
 // nova pasta chamada Header com index.js dentro (na pasta components)
 // site para fotos de perfil para testes
 api.adorable.io
+
+############ Notificações
+// novo componente
+// importação do componente no header
+// dependencia: React Icons
+yarn add react-icons
+// dependencia: react-perfect-scrollbar
+yarn add react-perfect-scrollbar
+// importar css do perfect-scroll-bar no estilo global
+import 'react-perfect-scrollbar/dist/css/styles.css';
