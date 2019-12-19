@@ -170,7 +170,7 @@ yarn add react-toastify
 // site para fotos de perfil para testes
 api.adorable.io
 
-############ Notificações
+############ Notificações - Estilo
 // novo componente
 // importação do componente no header
 // dependencia: React Icons
@@ -179,3 +179,12 @@ yarn add react-icons
 yarn add react-perfect-scrollbar
 // importar css do perfect-scroll-bar no estilo global
 import 'react-perfect-scrollbar/dist/css/styles.css';
+
+############# Notificações - Controle
+// novo estado no componente
+// alteração no estado através do clique na Badge
+// estilo de display na NotificationList segundo o a propriedade visible
+
+// novo estado para guardar as notificações
+// nova dependencia - date-fns (next para mais recente versão)
+yarn add date-fns@next
