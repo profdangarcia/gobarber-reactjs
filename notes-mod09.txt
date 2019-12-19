@@ -188,3 +188,10 @@ import 'react-perfect-scrollbar/dist/css/styles.css';
 // novo estado para guardar as notificações
 // nova dependencia - date-fns (next para mais recente versão)
 yarn add date-fns@next
+
+
+############# Página de Profile
+// alterações index e styles da pagina de Profile
+// utilização do Unform
+// utilização do reducer de usuário
+// utilização da prop initialData do Unform
