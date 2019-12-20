@@ -194,4 +194,10 @@ yarn add date-fns@next
 // alterações index e styles da pagina de Profile
 // utilização do Unform
 // utilização do reducer de usuário
-// utilização da prop initialData do Unform
+// utilização da prop initialData do Unform da rocketseat
+
+############# Atualização dados Cadastro
+// novas actions no store de user
+// novas sagas no store de user
+// importar as actions e utilizar o useDispatch no index de Profile
+// alteração no reducer de usuário para atualizar o estado
