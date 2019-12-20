@@ -201,3 +201,8 @@ yarn add date-fns@next
 // novas sagas no store de user
 // importar as actions e utilizar o useDispatch no index de Profile
 // alteração no reducer de usuário para atualizar o estado
+
+############# Upload de Foto de Perfil
+// nova pasta para componente chamado AvatarInput dentro do Profile
+// arquivos index.js e styles.js para o novo componente
+

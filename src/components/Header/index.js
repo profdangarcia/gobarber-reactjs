@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Notifications from '~/components/Notifications';
 import { Container, Content, Profile } from './styles';
+import defaultAvatar from '~/assets/default-avatar.png';
 
 import logo from '~/assets/logo-purple.svg';
 
@@ -21,10 +22,7 @@ export default function Header() {
               <strong>Daniel Garcia</strong>
               <Link to="/profile">Meu Perfil</Link>
             </div>
-            <img
-              src="https://api.adorable.io/avatars/50/abott@adorable.png"
-              alt="Daniel Garcia"
-            />
+            <img src={defaultAvatar} alt="Daniel Garcia" />
           </Profile>
         </aside>
       </Content>
