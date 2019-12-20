@@ -206,3 +206,9 @@ yarn add date-fns@next
 // nova pasta para componente chamado AvatarInput dentro do Profile
 // arquivos index.js e styles.js para o novo componente
 
+############# Logout
+// nova action de signOut no module de auth
+// alteração do reducer de auth
+// alteração do reducer de user
+// alteração do saga de auth para ouvir a ação de SIGN_OUT
+// importar a action de SIGN_OUT na página index do Profile
